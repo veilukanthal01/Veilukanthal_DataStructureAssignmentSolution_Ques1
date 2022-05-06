@@ -40,7 +40,6 @@ public class FloorAssembler {
 			for (int i = 1; i <= totalNoOfFloors; i++) {
 				int currentMaxFloorSize = BuildingBlueprint.getCurrentMaximumFloorSize();
 				int fSize = floorSizeQueue.poll();
-
 				head = LinkedListSortedImplementaion.push(head, fSize);
 				dayCount++;
 				System.out.println("\nDay: " + dayCount);

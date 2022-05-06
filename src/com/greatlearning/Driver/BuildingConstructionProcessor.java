@@ -15,8 +15,8 @@ public class BuildingConstructionProcessor {
 		// Storing user input in a Queue Class
 		FloorAssembler floorAssembler = new FloorAssembler(totalNoOfFloors);
 		floorAssembler.getFloorSizeValues(totalNoOfFloors);
-		
-		//calling method to construct floors
+
+		// calling method to construct floors
 		floorAssembler.assembleFloorsWithBlueprint();
 
 	}
